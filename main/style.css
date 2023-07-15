@@ -1,0 +1,267 @@
+/* ======== Codes Usses Srart ======== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+/* -------------------------------------- */
+:root{
+    --DarkBlue: hsl(243, 87%, 12%);
+    --DesaturatedBlue: hsl(238, 22%, 44%);
+    --BrightBlue: hsl(224, 93%, 58%);
+    --ModerateCyan: hsl(170, 45%, 43%);
+    --LightGrayishBlue: hsl(240, 75%, 98%);
+    --LightGray: hsl(0, 0%, 75%);
+}
+/* -------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -------------------------------------- */
+.container{
+    margin: 0 8% ;
+    width: 93%;
+}
+/* -------------------------------------- */
+p{
+    font-size: 16px;
+    color: var(--DarkBlue);
+}
+/* -------------------------------------- */
+h{
+    font-family: 'Raleway', sans-serif;
+}
+/* -------------------------------------- */
+.btn{
+    border: 1px solid var(--BrightBlue);
+    background-color: var(--BrightBlue);
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+/* -------------------------------------- */
+li{
+    list-style-type: none;
+}
+/* -------------------------------------- */
+ul{
+    text-decoration: none;
+    display: flex;
+}
+/* -------------------------------------- */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* ======== Codes Usses End ======== */
+
+/* ======== Header Section Start ======== */
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    color: var(--DarkBlue);
+    font-family:'Raleway', sans-serif;;
+}
+/* -------------------------------------- */
+.logo{
+    padding-left: 60px;
+}
+/* -------------------------------------- */
+.navbar ul li{
+    text-decoration: none;
+    padding:  25px 40px;
+}
+/* -------------------------------------- */
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--DarkBlue);
+    font-size: 20px;
+}
+/* ======== Header Section End ======== */
+/* ======== Features Section Start ======== */
+.features{
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    margin-top: 20vh;
+    position: relative;
+}
+/* -------------------------------------- */
+.firstsec{
+    width: 50%;
+    z-index:1;
+
+}
+/* -------------------------------------- */
+.firstsec h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    color: var(--DarkBlue);
+}
+/* -------------------------------------- */
+.firstsec p{
+    color: var(--DarkBlue);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+/* -------------------------------------- */
+.firstsec input{
+    width: 300px;
+    padding: 10px 25px;
+    margin-right: 10px;
+}
+
+
+/* -------------------------------------- */
+.secondsec{
+    width: 50%;
+    position: relative;
+    top:-20vw ;
+    left: 50vw;
+}
+/* ======== Features Section End ======== */
+/* ======== Team Section Start  ======== */
+.team{
+    background-color: var(--LightGrayishBlue);
+    z-index: 1;
+    padding-top: 24vh;
+    height: 150vh;
+}
+/* -------------------------------------- */
+.team .bg{
+    position: absolute;
+    bottom: -190px;
+    left: 5px;
+}
+/* -------------------------------------- */
+.team .firstsect{
+    width: 50%;
+    z-index: 1;
+}
+/* -------------------------------------- */
+.team .firstsect h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+/* -------------------------------------- */
+.team .firstsect p{
+    font-weight: 550;
+}
+/* -------------------------------------- */
+.team .paragreen{
+    color: rgb(55, 214, 55);
+    border-bottom: 1px solid rgb(55, 214, 55);
+    width: 200px;
+    padding-bottom:8px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+/* -------------------------------------- */
+.team .secondsect{
+    width: 50%;
+    position: relative;
+    top:-35vw ;
+    left: 50vw;
+}
+
+/* -------------------------------------- */
+.card{
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 450px;
+    padding: 15px 29px;
+    box-shadow: 100 200 20 red ;
+    height: 40vh;
+}
+/* -------------------------------------- */
+.card p{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 22px;
+    margin-top: 12px;
+}
+/* -------------------------------------- */
+.card .personal{
+    display: flex;
+    align-items: center;
+}
+/* -------------------------------------- */
+.card .personal h5 {
+    font-weight: 400;
+}
+/* -------------------------------------- */
+.card .personal img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/* ======== Team Section End  ======== */
+
+/* ======== Early Section Start ======== */
+.early{
+    height: 40vh;
+    align-items: center;
+    background-color: var(--DesaturatedBlue);
+}
+/* -------------------------------------- */
+
+.firstear{
+    width: 40%;
+    z-index: 1;
+    color: #fff;
+    padding-top: 80px;
+}
+/* -------------------------------------- */
+.firstear h2{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+/* -------------------------------------- */
+.firstear p{
+    font-weight: 550;
+    color: var(--LightGray);
+}
+/* -------------------------------------- */
+
+.secondear{
+    width: 50%;
+    position: relative;
+    top:-10vw ;
+    left: 60vw;
+}
+/* -------------------------------------- */
+
+.secondear input{
+    width: 370px;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    color: var(--DesaturatedBlue);
+}
+/* ======== Early Section End ======== */
+/*  ======== footer Section Start ========  */
+footer{
+    background-color: var(--DarkBlue);
+    width: 100%;
+    height: 50vh;
+    justify-content: space-between;
+    display: flex;
+}
+.logos{
+    width: 25%;
+    color: #fff;
+}
+.pages a{
+    width: 25%
+    colo
+    
+    
+}
+.social{
+    width: 25%
+}
+
+/*  ======== footer Section End ========  *
